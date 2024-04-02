@@ -2,24 +2,11 @@
 //@author level3tjg
 //@category iOS
 
-import java.util.*;
 import ghidra.app.script.GhidraScript;
 import ghidra.app.util.bin.*;
 import ghidra.app.util.bin.format.macho.*;
-import ghidra.app.util.bin.format.macho.commands.*;
-import ghidra.app.util.bin.format.ubi.*;
-import ghidra.program.model.lang.protorules.*;
 import ghidra.program.model.mem.*;
-import ghidra.program.model.lang.*;
-import ghidra.program.model.pcode.*;
-import ghidra.program.model.data.ISF.*;
-import ghidra.program.model.util.*;
-import ghidra.program.util.DefinedDataIterator;
-import ghidra.program.model.reloc.*;
-import ghidra.program.model.data.*;
-import ghidra.program.model.block.*;
 import ghidra.program.model.symbol.*;
-import ghidra.program.model.scalar.*;
 import ghidra.program.model.listing.*;
 import ghidra.program.model.address.*;
 
