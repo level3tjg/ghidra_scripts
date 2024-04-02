@@ -24,7 +24,7 @@ public class RenameObjcStubs extends GhidraScript {
     		long offset = entryPoint.getOffset();
     		
     		if (offset < stubsBlock.getStart().getOffset()) break;
-    		if (offset > stubsBlock.getStart().getOffset() + stubsBlock.getSize()) continue;
+    		if (offset > stubsBlock.getEnd().getOffset()) continue;
     		
     		CodeUnit unit = currentProgram.getListing().getCodeUnitAfter(entryPoint);
     		Reference[] references = unit.getOperandReferences(1);
